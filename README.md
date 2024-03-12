@@ -1,2 +1,2 @@
-# stella-riser-2024-
-26thRoboone-light出場時の機体データ
+# stella-riser(2024)
+26thROBOONE-Light出場時の機体データ
