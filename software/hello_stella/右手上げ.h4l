@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<Link xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>右手上げ</Name>
+  <FileName>C:\Users\star\Documents\HeartToHeart4\Projects\hello_stella\右手上げ.h4l</FileName>
+  <LinkCollection>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">左肩ロール</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>2</DeviceNumber>
+        <Name>左肩ロール</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">右肩ロール</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>3</DeviceNumber>
+        <Name>右肩ロール</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">左腕ピッチ</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>4</DeviceNumber>
+        <Name>左腕ピッチ</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">右腕ピッチ</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>5</DeviceNumber>
+        <Name>右腕ピッチ</Name>
+        <Position>7500</Position>
+        <Value>-30</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">左手先</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>6</DeviceNumber>
+        <Name>左手先</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">右手先</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>7</DeviceNumber>
+        <Name>右手先</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">腰</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>9</DeviceNumber>
+        <Name>腰</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">左腰ロール</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>10</DeviceNumber>
+        <Name>左腰ロール</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">右腰ロール</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>11</DeviceNumber>
+        <Name>右腰ロール</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">左腿ピッチ</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>12</DeviceNumber>
+        <Name>左腿ピッチ</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">右腿ピッチ</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>13</DeviceNumber>
+        <Name>右腿ピッチ</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">左脚ロール</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>14</DeviceNumber>
+        <Name>左脚ロール</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">右脚ロール</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>15</DeviceNumber>
+        <Name>右脚ロール</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">左脚ピッチ</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>16</DeviceNumber>
+        <Name>左脚ピッチ</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+    <DictionaryEntry>
+      <Key xsi:type="xsd:string">右脚ピッチ</Key>
+      <Value xsi:type="LinkItem">
+        <DeviceNumber>17</DeviceNumber>
+        <Name>右脚ピッチ</Name>
+        <Position>7500</Position>
+        <Value>0</Value>
+        <Operation>Move</Operation>
+      </Value>
+    </DictionaryEntry>
+  </LinkCollection>
+  <FrameOperation>None</FrameOperation>
+  <FrameValue>0</FrameValue>
+  <LinkType>Link</LinkType>
+</Link>

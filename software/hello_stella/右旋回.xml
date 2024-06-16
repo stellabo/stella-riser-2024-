@@ -1,0 +1,190 @@
+<?xml version="1.0"?>
+<CanvasData xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <Name>canvas</Name>
+  <Size>
+    <Width>1280</Width>
+    <Height>720</Height>
+  </Size>
+  <GridSize>8</GridSize>
+  <Lines>
+    <anyType xsi:type="LineData">
+      <GUID>a5836ef1-2386-4e0e-b167-2d486641f864</GUID>
+      <Path>
+        <Point>
+          <X>88</X>
+          <Y>64</Y>
+        </Point>
+        <Point>
+          <X>80</X>
+          <Y>128</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>159da5db-513d-4a2d-87a1-49c9af56869f</GUID>
+      <Path>
+        <Point>
+          <X>80</X>
+          <Y>128</Y>
+        </Point>
+        <Point>
+          <X>80</X>
+          <Y>192</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>eba5cef0-8ff0-44b9-833e-867d5cea68ff</GUID>
+      <Path>
+        <Point>
+          <X>80</X>
+          <Y>192</Y>
+        </Point>
+        <Point>
+          <X>88</X>
+          <Y>272</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+    <anyType xsi:type="LineData">
+      <GUID>8a7d677e-58a7-4790-922c-5fbfe778f23a</GUID>
+      <Path>
+        <Point>
+          <X>88</X>
+          <Y>272</Y>
+        </Point>
+        <Point>
+          <X>88</X>
+          <Y>328</Y>
+        </Point>
+      </Path>
+      <ConnectMode>Normal</ConnectMode>
+    </anyType>
+  </Lines>
+  <Activities>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos1</Name>
+      <GUID>1352258a-19db-4441-b116-d2e8d1dcfe95</GUID>
+      <Location>
+        <X>48</X>
+        <Y>104</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>ホームポジション</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>ポジション設定</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>a5836ef1-2386-4e0e-b167-2d486641f864,159da5db-513d-4a2d-87a1-49c9af56869f</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">27 10 FC FE 03 00 00 0A 10 1D 5A 1E D4 1C C4 1D 18 15 80 25 4C 1D 10 1D 88 1D FC 21 9C 18 10 1D 88 1D 9C 18 FC 21 35</anyType>
+      </ProgramCode>
+      <Hint>Frame = 10</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>ServoParam1</Name>
+      <GUID>06754167-56ff-4af0-8daa-b82265e6c59d</GUID>
+      <Location>
+        <X>56</X>
+        <Y>40</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>ServoParam1</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>Start</MotionFlag>
+      <BaseName>ServoParam</BaseName>
+      <Description>サーボモーターの特性を設定</Description>
+      <Group>Set</Group>
+      <ConnectedGuids>a5836ef1-2386-4e0e-b167-2d486641f864</ConnectedGuids>
+      <ConnectTypes>BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">18 12 FC FE 03 00 00 01 14 14 14 14 14 14 50 28 28 28 28 50 50 28 28 80</anyType>
+      </ProgramCode>
+      <Hint>Stretch: 左腰ロール 左肩ロール 右肩ロール 左腕ピッチ 右腕ピッチ 左手先 右手先 腰 右腰ロール 左腿ピッチ 右腿ピッチ 左脚ロール 右脚ロール 左脚ピッチ 右脚ピッチ </Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos2</Name>
+      <GUID>8e592c40-021c-4937-8ea9-43cc740a5cb1</GUID>
+      <Location>
+        <X>48</X>
+        <Y>168</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>Pos2</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>ポジション設定</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>159da5db-513d-4a2d-87a1-49c9af56869f,eba5cef0-8ff0-44b9-833e-867d5cea68ff</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">27 10 FC FE 03 00 00 07 10 1D 5A 1E 48 21 BE 23 18 15 80 25 80 25 10 1D 88 1D FC 21 9C 18 00 19 98 21 9C 18 FC 21 E7</anyType>
+      </ProgramCode>
+      <Hint>Frame = 7</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>Pos4</Name>
+      <GUID>97dbf122-e25f-4000-97b9-dd3c96a76b00</GUID>
+      <Location>
+        <X>56</X>
+        <Y>248</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>ホームポジション</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>Pos</BaseName>
+      <Description>ポジション設定</Description>
+      <Group>Position</Group>
+      <ConnectedGuids>eba5cef0-8ff0-44b9-833e-867d5cea68ff,8a7d677e-58a7-4790-922c-5fbfe778f23a</ConnectedGuids>
+      <ConnectTypes>EndConnect,BeginConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">27 10 FC FE 03 00 00 0A 10 1D 5A 1E D4 1C C4 1D 18 15 80 25 4C 1D 10 1D 88 1D FC 21 9C 18 10 1D 88 1D 9C 18 FC 21 35</anyType>
+      </ProgramCode>
+      <Hint>Frame = 10</Hint>
+    </anyType>
+    <anyType xsi:type="ActivityData">
+      <Name>ServoParam4</Name>
+      <GUID>0fc3b0d4-d34b-474a-a56d-ab6b18bfe96d</GUID>
+      <Location>
+        <X>56</X>
+        <Y>304</Y>
+      </Location>
+      <Size>
+        <Width>64</Width>
+        <Height>48</Height>
+      </Size>
+      <Text>ServoParam4</Text>
+      <BackColorText>WhiteSmoke</BackColorText>
+      <MotionFlag>None</MotionFlag>
+      <BaseName>ServoParam</BaseName>
+      <Description>サーボモーターの特性を設定</Description>
+      <Group>Set</Group>
+      <ConnectedGuids>8a7d677e-58a7-4790-922c-5fbfe778f23a</ConnectedGuids>
+      <ConnectTypes>EndConnect</ConnectTypes>
+      <ProgramCode>
+        <anyType xsi:type="xsd:string">18 12 FC FE 03 00 00 01 14 14 14 14 14 14 1E 28 28 28 28 28 28 28 28 FE</anyType>
+      </ProgramCode>
+      <Hint>Stretch: 右腰ロール 右腿ピッチ 右脚ピッチ 右脚ロール 左脚ロール 左脚ピッチ 左腿ピッチ 左腰ロール 右肩ロール 右腕ピッチ 右手先 腰 左手先 左腕ピッチ 左肩ロール </Hint>
+    </anyType>
+  </Activities>
+  <BackColorText>buttonface</BackColorText>
+</CanvasData>
